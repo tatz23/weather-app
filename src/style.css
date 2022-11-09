@@ -1,0 +1,85 @@
+.widget {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 60px auto;
+  font-family: "Montserrat", sans-serif;
+  max-width: 600px;
+}
+
+input {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+.celsius-selector,
+.fahrenheit-selector {
+  margin: 5px auto;
+  display: block;
+  background: transparent;
+  border: 1px solid #052f42;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+.celsius-selector:hover {
+  background: #08a9f3;
+  color: white;
+  cursor: pointer;
+}
+.fahrenheit-selector:hover {
+  background: #08a9f3;
+  color: white;
+  cursor: pointer;
+}
+
+button #location-icon {
+  display: inline;
+  padding: 0;
+}
+.max-today {
+  color: red;
+  margin-left: 40px;
+}
+.min-today {
+  color: blue;
+  margin-left: 50px;
+}
+.heading-sun {
+  margin-left: 60px;
+}
+.current-city {
+  text-align: right;
+  margin-right: 20px;
+}
+.temperature {
+  text-align: right;
+  margin-left: 120px;
+}
+.hr-bar {
+  border: 2px solid #08a9f3;
+  border-radius: 5px;
+}
+div .data-weather {
+  text-align: center;
+}
+.other-days {
+  color: #052f42;
+  font-weight: bold;
+}
+.min-other-days {
+  color: blue;
+  font-weight: bold;
+}
+.max-other-days {
+  color: red;
+  font-weight: bold;
+}
+.icons-note {
+  text-align: center;
+  font-size: 10px;
+}
+.coder {
+  text-align: center;
+  max-width: 600 px;
+  margin: -60px auto;
+}
